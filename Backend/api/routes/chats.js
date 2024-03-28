@@ -7,7 +7,7 @@ router.get('/', (req, res, next) => {
     res.status(200).json({
         message: 'Successfully gotten all chats',
         chats: items
-    })
-})
+    });
+});
 
 module.exports = router;
